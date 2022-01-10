@@ -34,7 +34,7 @@ def start_pannel():
         ],
     ]
     return (
-        "🎛 **{BOT_NAME} Merupakan salah satu dari bot telegram yang bisa memutar musik di grup**",
+        "🎛 **{BOT_NAME} ᴍᴇʀᴜᴘᴀᴋᴀɴ ꜱᴀʟᴀʜ ꜱᴀᴛᴜ ᴅᴀʀɪ ʙᴏᴛ ᴛᴇʟᴇɢʀᴀᴍ ʏᴀɴɢ ʙɪꜱᴀ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪ ɢʀᴜᴘ **",
         buttons,
     )
 
