@@ -26,11 +26,11 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{unclesamaja1}"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{unclesamaja}"),
         ],
         [
-            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://telegra.ph/Skyzo-11-10"),
+            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://t.me/unclesamaja/40"),
         ],
     ]
     return (
@@ -43,15 +43,15 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                "𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("Support", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton("Updates", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/{unclesamaja1}"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{unclesamaja}"),
         ],
         [
-            InlineKeyboardButton("Cmd Music", url="https://telegra.ph/RidwanMusic-12-15-2"),
-            InlineKeyboardButton("Cmd Stream", url="https://telegra.ph/RidwanMusic-12-15-2"),
+            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ ᴍᴜꜱɪᴄ", url="https://t.me/unclesamaja/40"),
+            InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ ꜱᴛʀᴇᴀᴍ", url="https://t.me/unclesamaja/40"),
         ],
     ]
 )
@@ -125,14 +125,16 @@ async def play(_, message: Message):
             
 𝗗𝗮𝗻 𝗦𝗮𝘆𝗮 𝗠𝗲𝗺𝗶𝗹𝗶𝗸𝗶 𝗙𝗶𝘁𝘂𝗿 𝗦𝗲𝗽𝗲𝗿𝘁𝗶 :
 • 𝗠𝗲𝗻𝗰𝗮𝗿𝗶 𝗗𝗮𝗻 𝗠𝗲𝗺𝘂𝘁𝗮𝗿 𝗟𝗮𝗴𝘂 𝗬𝗮𝗻𝗴 𝗞𝗮𝗺𝘂 𝗜𝗻𝗴𝗶𝗻𝗸𝗮𝗻.
+• 𝗠𝗲𝗺𝘂𝘁𝗮𝗿 𝗩𝗱𝗲𝗼 𝗦𝗲𝗰𝗮𝗿𝗮 𝗕𝗲𝗿𝘀𝗮𝗺𝗮𝗮𝗻 𝗗𝗶 𝗚𝗥𝗢𝗨𝗣 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺,𝗗𝗮𝗻
 • 𝗠𝗲𝗻𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗟𝗮𝗴𝘂 𝗬𝗮𝗻𝗴 𝗜𝗻𝗴𝗶𝗻 𝗞𝗮𝗺𝘂 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱.
 • 𝗠𝗲𝗻𝗱𝗼𝗻𝗮𝘀𝗶 𝗞𝗮𝗻 𝗞𝗲 𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁 𝗦𝗲 𝗜𝗸𝗵𝗹𝗮𝘀 𝗻𝘆𝗮,𝗝𝗶𝗸𝗮 𝗞𝗮𝗺𝘂 𝗞𝗲𝗹𝗲𝗯𝗶𝗵𝗮𝗻 𝗨𝗮𝗻𝗴.
-🌹 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐓𝐨 : **HALBERT** 🌹
+🌹 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐓𝐨 : **𝐇𝐀𝐋𝐁𝐄𝐑𝐓** 🌹
+
 👑 𝐎𝐰𝐧𝐞𝐫 : **[𝐇𝐚𝐥𝐛𝐞𝐫𝐭](https://t.me/rdwan_13)**
 
-🤖 [{BOT_NAME}](tg://user?id=2129034376) is a bot that can be used to listen to songs in voice chat and can play videos in voice chat!
+🤖 [{BOT_NAME}](tg://user?id=2129263636) ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴅɪɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴇɴɢᴀʀᴋᴀɴ ʟᴀɢᴜ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ ꜱᴜᴀʀᴀ ᴅᴀɴ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴠɪᴅᴇᴏ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ ꜱᴜᴀʀᴀ !
 
-🧰 To find out all the available command bots, you can press the two buttons below, namely Cmd Music and Cmd Stream**
+📕 ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ꜱᴇᴍᴜᴀ ʙᴏᴛ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ, ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴᴇᴋᴀɴ ᴅᴜᴀ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ, ʏᴀɪᴛᴜ ᴄᴍᴅ ᴍᴜꜱɪᴄ ᴅᴀɴ ᴄᴍᴅ ꜱᴛʀᴇᴀᴍ**
 
 """,
             parse_mode="markdown",
