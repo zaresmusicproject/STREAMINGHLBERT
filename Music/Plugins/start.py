@@ -26,15 +26,15 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{unclesamaja1}"),
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{unclesamaja}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/unclesamaja1"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/unclesamaja"),
         ],
         [
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ​", url="https://t.me/unclesamaja/40"),
         ],
     ]
     return (
-        "🎛 **{BOT_NAME} ᴍᴇʀᴜᴘᴀᴋᴀɴ ꜱᴀʟᴀʜ ꜱᴀᴛᴜ ᴅᴀʀɪ ʙᴏᴛ ᴛᴇʟᴇɢʀᴀᴍ ʏᴀɴɢ ʙɪꜱᴀ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪ ɢʀᴜᴘ **",
+        "🎛 **{BOT_NAME} Merupakan salah satu dari bot telegram yang bisa memutar musik di grup**",
         buttons,
     )
 
@@ -46,8 +46,8 @@ pstart_markup = InlineKeyboardMarkup(
                 "𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/{unclesamaja1}"),
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{unclesamaja}"),
+            InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/unclesamaja1"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/unclesamaja"),
         ],
         [
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ ᴍᴜꜱɪᴄ", url="https://t.me/unclesamaja/40"),
