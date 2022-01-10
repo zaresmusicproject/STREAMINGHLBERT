@@ -29,6 +29,7 @@ from Music.MusicUtilities.database.theme import (_get_theme, get_theme, save_the
 from Music.MusicUtilities.database.assistant import (_get_assistant, get_assistant, save_assistant)
 from Music.config import DURATION_LIMIT
 from Music.MusicUtilities.helpers.decorators import errors
+from Music.MusicUtilities.helpers.fsubs import subcribe
 from Music.MusicUtilities.helpers.filters import command
 from Music.MusicUtilities.helpers.gets import (get_url, themes, random_assistant, ass_det)
 from Music.MusicUtilities.helpers.logger import LOG_CHAT
@@ -59,6 +60,7 @@ def time_to_seconds(time):
     )
 
 @Client.on_message(command(["play", "play@Tg_Vc_00_Bot"]))
+@subcribe
 async def play(_, message: Message):
     chat_id = message.chat.id
     if message.sender_chat:
@@ -163,8 +165,8 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/Technical_Hunter"
-        thumb = "cache/IMG_20211231_003953_527.jpg"
+        link = "https://t.me/unclesamaja1"
+        thumb = "cache/photo_2022-01-08_21-56-13.jpg"
         videoid = "smex1"
     elif url:
         what = "URL Searched"
@@ -252,11 +254,11 @@ async def play(_, message: Message):
             what = "Command"
             await LOG_CHAT(message, what)
             user_name = message.from_user.first_name
-            thumb ="cache/IMG_20211231_003953_527.jpg"
+            thumb ="cache/photo_2022-01-08_21-56-13.jpg"
             buttons = playlist_markup(user_name, user_id)
             hmo = await message.reply_photo(
             photo=thumb, 
-            caption=("**Usage:** /play [Music Name Or Youtube Link Or Reply to Audio]\n\nIf You Want To Play Playlists! Select The One From Below.\n\n**More Info In [Group](t.me/flicksrobotsupport)**"),    
+            caption=("**Usage:** /play [Music Name Or Youtube Link Or Reply to Audio]\n\nIf You Want To Play Playlists! Select The One From Below.\n\n**More Info In [Group](t.me/unclesamaja1)**"),    
             reply_markup=InlineKeyboardMarkup(buttons),
             ) 
             return
@@ -283,7 +285,7 @@ async def play(_, message: Message):
             ID4 = (result[3]["id"])
             ID5 = (result[4]["id"])
         except Exception as e:
-            return await mystic.edit_text(f"Soung Not Found.\n**Possible Reason:**{e}")
+            return await mystic.edit_text(f"Song Not Found.\n**Possible Reason:**{e}")
         thumb ="cache/IMG_2.png"
         await mystic.delete()   
         buttons = search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, duration4, duration5, user_id, query)
@@ -570,7 +572,7 @@ async def popat(_,CallbackQuery):
         
 @app.on_message(filters.command("playplaylist"))
 async def play_playlist_cmd(_, message):
-    thumb ="cache/IMG_20211231_003953_527.jpg"
+    thumb ="cache/photo_2022-01-08_21-56-13.jpg"
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     buttons = playlist_markup(user_name, user_id)
