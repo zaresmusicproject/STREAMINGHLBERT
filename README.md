@@ -11,8 +11,8 @@
 
 <p align="center">
     A Support Group And Ready Running This Bot Music Telegram On Heroku!<br>
-    <a href="https://t.me/unclesamaja1"> FlicksMusicBot </a> |
-    <a href="https://t.me/unclesamaja1"> FlicksSupport </a>
+    <a href="https://t.me/unclesamaja1"> HALBERTMusicBot </a> |
+    <a href="https://t.me/unclesamaja1"> HALBERTSupport </a>
 </p>
 
 <h2 align="center">
