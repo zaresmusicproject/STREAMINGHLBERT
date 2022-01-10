@@ -1,7 +1,7 @@
-<h1 align= center><b>SKYZO MUSIC BOT</b></h1>
+<h1 align= center><b>HLBERT MUSIC BOT</b></h1>
 <h3 align = center> Telegram Music Bot And Stream Feature New Version </h3>
 
-<p align="center"><img src="https://telegra.ph/file/3b041f0e23708b4953667.jpg" alt="Coder GIF" width="500" alt="ridho17-ind Github" width="1000px" /></p>
+<p align="center"><img src="https://telegra.ph/Cara-Menggunakan-Bot-Di-IWAN-MUSICPROJECT-11-26" alt="Coder GIF" width="500" alt="ridho17-ind Github" width="1000px" /></p>
 
 
 
@@ -11,8 +11,8 @@
 
 <p align="center">
     A Support Group And Ready Running This Bot Music Telegram On Heroku!<br>
-    <a href="https://t.me/FlicksMusicBot"> FlicksMusicBot </a> |
-    <a href="https://t.me/FlicksRobotSupport"> FlicksSupport </a>
+    <a href="https://t.me/unclesamaja1"> FlicksMusicBot </a> |
+    <a href="https://t.me/unclesamaja1"> FlicksSupport </a>
 </p>
 
 <h2 align="center">
