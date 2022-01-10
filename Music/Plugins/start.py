@@ -121,6 +121,14 @@ async def play(_, message: Message):
             message.chat.id,
             text=f"""
 **✨ Hello {rpk}!  How Are You?
+💭 𝐈𝐧𝐢 𝐝𝐢 𝐤𝐞𝐥𝐨𝐥𝐚 𝐨𝐥𝐞𝐡 **[HALBERT](https://t.me/rdwan_13)**, 𝐝𝐚𝐧 𝐛𝐢𝐬𝐚 𝐦𝐞𝐦𝐛𝐚𝐧𝐭𝐮 𝐤𝐚𝐥𝐢𝐚𝐧 𝐮𝐧𝐭𝐮𝐤 𝐦𝐞𝐧𝐝𝐞𝐧𝐠𝐚𝐫 𝐤𝐚𝐧 𝐦𝐮𝐬𝐢𝐜 𝐦𝐞𝐥𝐚𝐥𝐮𝐢 𝐨𝐛𝐫𝐨𝐥𝐚𝐧 𝐬𝐮𝐚𝐫𝐚 𝐆𝐑𝐎𝐔𝐏 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 (𝐕𝐂𝐆)
+            
+𝗗𝗮𝗻 𝗦𝗮𝘆𝗮 𝗠𝗲𝗺𝗶𝗹𝗶𝗸𝗶 𝗙𝗶𝘁𝘂𝗿 𝗦𝗲𝗽𝗲𝗿𝘁𝗶 :
+• 𝗠𝗲𝗻𝗰𝗮𝗿𝗶 𝗗𝗮𝗻 𝗠𝗲𝗺𝘂𝘁𝗮𝗿 𝗟𝗮𝗴𝘂 𝗬𝗮𝗻𝗴 𝗞𝗮𝗺𝘂 𝗜𝗻𝗴𝗶𝗻𝗸𝗮𝗻.
+• 𝗠𝗲𝗻𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗟𝗮𝗴𝘂 𝗬𝗮𝗻𝗴 𝗜𝗻𝗴𝗶𝗻 𝗞𝗮𝗺𝘂 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱.
+• 𝗠𝗲𝗻𝗱𝗼𝗻𝗮𝘀𝗶 𝗞𝗮𝗻 𝗞𝗲 𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁 𝗦𝗲 𝗜𝗸𝗵𝗹𝗮𝘀 𝗻𝘆𝗮,𝗝𝗶𝗸𝗮 𝗞𝗮𝗺𝘂 𝗞𝗲𝗹𝗲𝗯𝗶𝗵𝗮𝗻 𝗨𝗮𝗻𝗴.
+🌹 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐓𝐨 : **HALBERT** 🌹
+👑 𝐎𝐰𝐧𝐞𝐫 : **[𝐇𝐚𝐥𝐛𝐞𝐫𝐭](https://t.me/rdwan_13)**
 
 🤖 [{BOT_NAME}](tg://user?id=2129034376) is a bot that can be used to listen to songs in voice chat and can play videos in voice chat!
 
