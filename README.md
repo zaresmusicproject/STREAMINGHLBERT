@@ -1,7 +1,7 @@
-<h1 align= center><b>HLBERT MUSIC BOT</b></h1>
+<h1 align= center><b>HALBERT MUSIC BOT</b></h1>
 <h3 align = center> Telegram Music Bot And Stream Feature New Version </h3>
 
-<p align="center"><img src="https://telegra.ph/Cara-Menggunakan-Bot-Di-IWAN-MUSICPROJECT-11-26" alt="Coder GIF" width="500" alt="ridho17-ind Github" width="1000px" /></p>
+<p align="center"><img src="https://telegra.ph/Cara-Menggunakan-Bot-Di-IWAN-MUSICPROJECT-11-26.png" alt="Coder GIF" width="500" alt="ridho17-ind Github" width="1000px" /></p>
 
 
 
