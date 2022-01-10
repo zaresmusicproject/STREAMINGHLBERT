@@ -50,8 +50,8 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("Updates", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("Cmd Music", url="https://telegra.ph/Skyzo-11-10"),
-            InlineKeyboardButton("Cmd Stream", url="https://telegra.ph/sᴋʏᴢᴏ-ᴇx-12-21"),
+            InlineKeyboardButton("Cmd Music", url="https://telegra.ph/RidwanMusic-12-15-2"),
+            InlineKeyboardButton("Cmd Stream", url="https://telegra.ph/RidwanMusic-12-15-2"),
         ],
     ]
 )
