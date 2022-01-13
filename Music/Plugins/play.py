@@ -34,6 +34,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, Message, Voice
 from pytgcalls import StreamType
+from Music.MusicUtilities.helpers.decorators import authorized_users_only
 from pytgcalls.types.input_stream import InputAudioStream, InputStream
 from youtubesearchpython import VideosSearch
 
@@ -46,10 +47,62 @@ def time_to_seconds(time):
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
+chat_id = None
+DISABLED_GROUPS = []
+useer = "NaN"
+que = {}
+
+@app.on_message(
+    command("music") & ~filters.groups
+)
+@authorized_users_only
+async def music_onoff(_, message: Message):
+    global DISABLED_GROUPS
+    try:
+        message.from_user.id
+    except:
+        return
+    if len(message.command) != 2:
+        await message.reply_text("**• usage:**\n\n `/music on` & `/music off`")
+        return
+    status = message.text.split(None, 1)[1]
+    message.chat.id
+    if status in ("ON", "on", "On"):
+        lel = await message.reply("`tunggu sebentar...`")
+        if not message.chat.id in DISABLED_GROUPS:
+            await lel.edit("» **Music Telah Aktif ✅**")
+            return
+        DISABLED_GROUPS.remove(message.chat.id)
+        await lel.edit(
+            f"**✅ Music Telah Di Diaktifkan Di {message.chat.title}**"
+        )
+
+    elif status in ("OFF", "off", "Off"):
+        lel = await message.reply("`processing...`")
+
+        if message.chat.id in DISABLED_GROUPS:
+            await lel.edit("» **Music Tidak Aktif❌.**")
+            return
+        DISABLED_GROUPS.append(message.chat.id)
+        await lel.edit(
+            f"**✅ Music Telah Di Nonaktifkan Di {message.chat.title} !**"
+        )
+    else:
+        await message.reply_text(
+            "**• Penggunaan:**\n\n `/music on` & `/music off`"
+        )
+
+
 @Client.on_message(command(["play", "play@Tg_Vc_00_Bot"]))
 @subcribe
 async def play(_, message: Message):
     chat_id = message.chat.id
+    global que
+    global useer
+    if chat_id in DISABLED_GROUPS:
+        return await message.reply_text(
+            f"😕 **Maaf kak {message.from_user.mention}, Musicnya sedang tidak aktif,tag Admin untuk mengaktifkan**" 
+        )
     if not await is_served_chat(chat_id):
         await add_served_chat(chat_id)
     if message.sender_chat:
