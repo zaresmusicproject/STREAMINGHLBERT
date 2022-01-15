@@ -53,7 +53,7 @@ useer = "NaN"
 que = {}
 
 @app.on_message(
-    command("music") & ~filters.group
+    command("player") & ~filters.group
 )
 @authorized_users_only
 async def music_onoff(_, message: Message):
