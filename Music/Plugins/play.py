@@ -5,7 +5,7 @@ import shutil
 from os import path
 
 import yt_dlp
-from Music import ASSID, ASSNAME, ASSUSERNAME, BOT_ID, BOT_NAME, app
+from Music import ASSID, ASSNAME, ASSUSERNAME, BOT_ID, BOT_NAME, app, BOT_USERNAME
 from Music.config import DURATION_LIMIT
 from Music.MusicUtilities.database.chats import add_served_chat, is_served_chat
 from Music.MusicUtilities.database.onoff import is_on_off
@@ -52,9 +52,8 @@ DISABLED_GROUPS = []
 useer = "NaN"
 que = {}
 
-@app.on_message(
-    command("player") & ~filters.group
-)
+
+@app.on_message(filters.command(["player", f"player@{BOT_USERNAME}"])& ~filters.edited & ~filters.bot & ~filters.private)
 @authorized_users_only
 async def music_onoff(_, message: Message):
     global DISABLED_GROUPS
